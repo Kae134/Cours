@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemple d'Inputs et Buttons</title>
+</head>
+<body>
+
+<h1>Formulaire d'exemple</h1>
+
+<form action="#" method="post">
+    <!-- Champ de texte -->
+    <label for="nom">Nom :</label>
+    <input type="text" id="nom" name="nom" required>
+    <br><br>
+
+    <!-- Champ de mot de passe -->
+    <label for="motdepasse">Mot de passe :</label>
+    <input type="password" id="motdepasse" name="motdepasse" required>
+    <br><br>
+
+    <!-- Champ d'email -->
+    <label for="email">Email :</label>
+    <input type="email" id="email" name="email" required>
+    <br><br>
+
+    <!-- Champ de nombre -->
+    <label for="age">Âge :</label>
+    <input type="number" id="age" name="age" min="0" max="120>
+    <br><br>
+
+    <!-- Case à cocher -->
+    <label for="select">
+        <select id="id_du_select" name="nom_du_select">
+            <option value="valeur1">Option 1</option>
+            <option value="valeur2">Option 2</option>
+            <option value="valeur3">Option 3</option>
+        </select>
+    </label>
+    <br><br>
+
+    <!-- Select -->
+    <label for="newsletter">
+        <input type="checkbox" id="newsletter" name="newsletter">
+        S'inscrire à la newsletter
+    </label>
+    <br><br>
+
+    <!-- Boutons radio -->
+    <label>Genre :</label>
+    <label for="homme">
+        <input type="radio" id="homme" name="genre" value="homme">
+        Homme
+    </label>
+    <label for="femme">
+        <input type="radio" id="femme" name="genre" value="femme">
+        Femme
+    </label>
+    <br><br>
+
+    <!-- Champ de fichier -->
+    <label for="fichier">Télécharger un fichier :</label>
+    <input type="file" id="fichier" name="fichier">
+    <br><br>
+
+    <!-- Bouton de soumission -->
+    <input type="submit" value="Soumettre">
+    
+    <!-- Bouton personnalisé -->
+    <button type="button" onclick="alert('Bouton cliqué !')">Cliquez-moi</button>
+</form>
+
+</body>
+</html>
