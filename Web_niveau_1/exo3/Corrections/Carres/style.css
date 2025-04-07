@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+.part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 8px 8px 24px -21px rgba(66, 68, 90, 1);;
+    width: 60%;
+    height: 20rem;
+}
+
+.carre1 {
+    width: 5rem;
+    height: 5rem;
+    background-color: green;
+    border-radius: .5rem;
+}
+
+.carre2 {
+    width: 5rem;
+    height: 5rem;
+    background-color: black;
+    border-radius: .5rem;
+}
+
+.carre3 {
+    width: 5rem;
+    height: 5rem;
+    background-color: black;
+    border-radius: .5rem;
+    transition: transform 100ms;
+}
