@@ -33,7 +33,7 @@ assets  -
 De même pour les pages, ton index sera à la racine mais si tu as d'autres pages, tu les mettras dans un dossier pages (il ne s'agit que d'une facon de faire).
 N'oublie pas de bien tout relier dans ton html.
 
-### HEEEEEEEEELLLLOOOOOO NIG- ... WORLD
+### HEEEEEEEEELLLLOOOOOO NIGHT- ... WORLD
 On va faire l'habituel Hello World ! Puis passer en revu quelques petites choses pour la suite des exos.
 
 #### Comment on parle ?
